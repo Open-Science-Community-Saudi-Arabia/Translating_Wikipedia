@@ -1,0 +1,113 @@
+{{short description|Data compliant with the terms of the FAIR Data Principles}}
+[[File:FREYA-The-power-of-PIDs-V05-1.webm|thumb|thumbtime=0:30.0|An introduction to FAIR data and [[persistent identifier]]s.]]
+[[File:FAIR data principles.jpg|thumb|right]]
+
+'''FAIR data''' are data which meet principles of [[findability]], [[accessibility]], [[interoperability]], and [[reusability]].<ref name="FAIR principles 2016">{{cite journal|last1=Wilkinson |first1=Mark D. |last2=Dumontier |first2=Michel |last3=Aalbersberg |first3=IJsbrand Jan |last4=Appleton |first4=Gabrielle |last5=Axton |first5=Myles |last6=Baak |first6=Arie |last7=Blomberg |first7=Niklas |last8=Boiten |first8=Jan-Willem |last9=da Silva Santos |first9=Luiz Bonino |last10=Bourne |first10=Philip E. |last11=Bouwman |first11=Jildau |last12=Brookes |first12=Anthony J. |last13=Clark |first13=Tim |last14=Crosas |first14=Mercè |last15=Dillo |first15=Ingrid |last16=Dumon |first16=Olivier |last17=Edmunds |first17=Scott |last18=Evelo |first18=Chris T. |last19=Finkers |first19=Richard |last20=Gonzalez-Beltran |first20=Alejandra |last21=Gray |first21=Alasdair J.G. |last22=Groth |first22=Paul |last23=Goble |first23=Carole |last24=Grethe |first24=Jeffrey S. |last25=Heringa |first25=Jaap |last26=’t Hoen |first26=Peter A.C |last27=Hooft |first27=Rob |last28=Kuhn |first28=Tobias |last29=Kok |first29=Ruben |last30=Kok |first30=Joost |last31=Lusher |first31=Scott J. |last32=Martone |first32=Maryann E. |last33=Mons |first33=Albert |last34=Packer |first34=Abel L. |last35=Persson |first35=Bengt |last36=Rocca-Serra |first36=Philippe |last37=Roos |first37=Marco |last38=van Schaik |first38=Rene |last39=Sansone |first39=Susanna-Assunta |last40=Schultes |first40=Erik |last41=Sengstag |first41=Thierry |last42=Slater |first42=Ted |last43=Strawn |first43=George |last44=Swertz |first44=Morris A. |last45=Thompson |first45=Mark |last46=van der Lei |first46=Johan |last47=van Mulligen |first47=Erik |last48=Velterop |first48=Jan |last49=Waagmeester |first49=Andra |last50=Wittenburg |first50=Peter |last51=Wolstencroft |first51=Katherine |last52=Zhao |first52=Jun |last53=Mons |first53=Barend | display-authors=4|title=The FAIR Guiding Principles for scientific data management and stewardship |journal=Scientific Data |volume=3 |pages=160018 |language=En |doi=10.1038/sdata.2016.18 |pmid=26978244 |pmc=4792175 |oclc=961158301|date=15 March 2016|bibcode=2016NatSD...360018W }}</ref> The acronym and principles were defined in a March 2016 paper in the journal ''Scientific Data'' by a consortium of scientists and organizations.<ref name="FAIR principles 2016" />
+
+The FAIR principles emphasize machine-actionability (i.e., the capacity of computational systems to find, access, interoperate, and reuse data with none or minimal human intervention) because humans increasingly rely on computational support to deal with data as a result of the increase in volume, complexity, and creation speed of data.<ref name="AutoSH-1">{{Cite web|url=https://www.go-fair.org/fair-principles/|title=FAIR Principles|website=GO FAIR|language=en-US|access-date=2020-02-16}}  [[File:CC-BY icon.svg|50px]] Material was copied from this source, which is available under a [https://creativecommons.org/licenses/by/4.0/ Creative Commons Attribution 4.0 International License].</ref>
+
+The abbreviation '''{{nowrap|FAIR/O data}}''' is sometimes used to indicate that the dataset or database in question complies with the FAIR principles and also carries an explicit data‑capable [[open license]].
+
+==FAIR principles, as published by GO FAIR==
+
+{{blockquote|text=
+'''Findable'''
+
+The first step in (re)using data is to find them. [[Metadata Encoding and Transmission Standard|Metadata]] and data should be easy to find for both humans and computers. [[Machine-readable data|Machine-readable]] metadata are essential for automatic [[Data discovery|discovery]] of datasets and services, so this is an essential component of the FAIRification process.
+
+F1. (Meta)data are assigned a globally unique and persistent identifier
+
+F2. Data are described with rich metadata (defined by R1 below)
+
+F3. Metadata clearly and explicitly include the identifier of the data they describe
+
+F4. (Meta)data are registered or indexed in a searchable resource
+
+'''Accessible'''
+
+Once the user finds the required data, they need to know how they can be accessed, possibly including [[authentication]] and [[Authorization|authorisation]].
+
+A1. (Meta)data are retrievable by their identifier using a standardised communications protocol
+
+A1.1 The protocol is open, free, and universally implementable
+
+A1.2 The protocol allows for an authentication and authorisation procedure, where necessary
+
+A2. Metadata are accessible, even when the data are no longer available
+
+'''Interoperable'''
+
+The data usually need to be integrated with other data. In addition, the data need to interoperate with applications or workflows for [[Data analysis|analysis]], [[Data storage|storage]], and [[Data processing|processing]].
+
+I1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
+
+I2. (Meta)data use [[Controlled vocabulary|vocabularies]] that follow FAIR principles
+
+I3. (Meta)data include qualified references to other (meta)data
+
+'''Reusable'''
+
+The ultimate goal of FAIR is to optimise the reuse of data. To achieve this, metadata and data should be well-described so that they can be replicated and/or combined in different settings.
+
+R1. Meta(data) are richly described with a plurality of accurate and relevant attributes
+
+R1.1. (Meta)data are released with a clear and accessible data usage license
+
+R1.2. (Meta)data are associated with detailed provenance
+
+R1.3. (Meta)data meet domain-relevant community standards
+
+The principles refer to three types of entities: data (or any digital object), metadata (information about that digital object), and infrastructure. For instance, principle F4 defines that both metadata and data are registered or indexed in a searchable resource (the infrastructure component).
+
+|author=GO FAIR
+|title=FAIR Principles
+|source=https://www.go-fair.org/fair-principles/
+|style=font-style:italic
+}}
+
+== Acceptance and implementation of FAIR data principles ==
+Before FAIR a 2007 paper was the earliest paper discussing similar ideas related to data accessibility.<ref>Sandra Collins; Françoise Genova; Natalie Harrower; Simon Hodson; Sarah Jones; Leif Laaksonen; Daniel Mietchen; Rūta Petrauskaité; Peter Wittenburg (7 June 2018), "Turning FAIR data into reality: interim report from the European Commission Expert Group on FAIR data", Zenodo, doi:10.5281/ZENODO.1285272</ref>
+
+At the [[2016 G20 Hangzhou summit]], the [[G20]] leaders issued a statement endorsing the application of FAIR principles to research.<ref>{{cite web|url=http://europa.eu/rapid/press-release_STATEMENT-16-2967_en.htm|title=G20 Leaders' Communique Hangzhou Summit|author1=G20 leaders|date=5 September 2016|website=europa.eu|publisher=European Commission|language=en}}</ref><ref>{{cite web |title=European Commission embraces the FAIR principles – Dutch Techcentre for Life Sciences |url=https://www.dtls.nl/2016/04/20/european-commission-allocates-e2-billion-to-make-research-data-fair/ |website=Dutch Techcentre for Life Sciences |date=20 April 2016}}</ref>
+
+In 2016 a group of Australian organisations developed a Statement on FAIR Access to Australia's Research Outputs, which aimed to extend the principles to research outputs more generally.<ref>{{Cite web|url=https://www.fair-access.net.au/fair-statement|title=Australian FAIR Access Working Group|website=www.fair-access.net.au|access-date=2020-04-03}}</ref>
+
+In 2017 Germany, Netherlands and France agreed to establish<ref>{{Cite web|url=https://www.government.nl/latest/news/2017/12/01/progress-towards-the-european-open-science-cloud|title=Progress towards the European Open Science Cloud – GO FAIR – News item – Government.nl|last=Ministerie van Onderwijs|first=Cultuur en Wetenschap|date=2017-12-01|website=www.government.nl|language=nl-NL|url-status=live|archive-url=|archive-date=|access-date=2020-02-15}}</ref>  an international office to support the FAIR initiative, the [https://www.go-fair.org/go-fair-initiative/go-fair-offices/ GO FAIR International Support and Coordination Office]. 
+
+Other international organisations active in the research data ecosystem, such as [[Committee on Data for Science and Technology|CODATA]] or [[Research Data Alliance]] (RDA) also support FAIR implementations by their communities. FAIR principles implementation assessment is being explored by FAIR Data Maturity Model Working Group of RDA,<ref>{{Cite web|url=https://www.rd-alliance.org/groups/fair-data-maturity-model-wg|title=FAIR Data Maturity Model WG|date=2018-09-23|website=RDA|language=en|access-date=2020-02-16}}</ref> CODATA's strategic Decadal Programme "Data for Planet: Making data work for cross-domain challenges"<ref>{{Cite web|url=http://www.codata.org/strategic-initiatives/decadal-programme|title=Decadal Programme – CODATA|website=www.codata.org|access-date=2020-02-16}}</ref> mentions FAIR data principles as a fundamental enabler of data driven science.   
+[[File:Implementing FAIR Data Principles - The Role of Libraries.pdf|thumb|right|"Implementing FAIR Data Principles – The Role of Libraries", a guide]]
+The [[Association of European Research Libraries]] recommends the use of FAIR principles.<ref>{{cite web |author1=Association of European Research Libraries |title=Open Consultation on FAIR Data Action Plan – LIBER |url=https://libereurope.eu/blog/2018/07/13/fairdataconsultation/ |website=LIBER |date=13 July 2018}}</ref>
+
+A 2017 paper by advocates of FAIR data reported that awareness of the FAIR concept was increasing among various researchers and institutes, but also, understanding of the concept was becoming confused as different people apply their own differing perspectives to it.<ref>{{cite journal |last1=Mons |first1=Barend |last2=Neylon |first2=Cameron |last3=Velterop |first3=Jan |last4=Dumontier |first4=Michel |last5=da Silva Santos |first5=Luiz Olavo Bonino |last6=Wilkinson |first6=Mark D. |title=Cloudy, increasingly FAIR; revisiting the FAIR Data guiding principles for the European Open Science Cloud |journal=Information Services & Use |date=7 March 2017 |volume=37 |issue=1 |pages=49–56 |doi=10.3233/ISU-170824|hdl=20.500.11937/53669 |doi-access=free }}</ref>
+
+Guides on implementing FAIR data practices state that the cost of a [[data management plan]] in compliance with FAIR data practices should be 5% of the total research budget.<ref>{{cite web |author1=Science Europe |title=Funding research data management and related infrastructures |url=https://www.scienceeurope.org/wp-content/uploads/2016/05/SE-KE_Briefing_Paper_Funding_RDM.pdf |date=May 2016}}</ref>
+
+In 2019 the Global Indigenous Data Alliance (GIDA) released the [[CARE Principles for Indigenous Data Governance]] as a complementary guide.<ref>{{Cite web|url=https://www.gida-global.org/care|title=CARE Principles of Indigenous Data Governance|website=Global Indigenous Data Alliance|language=en-US|access-date=2019-09-30}}</ref> The CARE principles extend principles outlined in FAIR data to include Collective benefit, Authority to control, Responsibility, and Ethics to ensure data guidelines address historical contexts and power differentials. The CARE Principles for Indigenous Data Governance were drafted at the International Data Week and Research Data Alliance Plenary co-hosted event “Indigenous Data Sovereignty Principles for the Governance of Indigenous Data Workshop,” 8 November 2018, Gaborone, Botswana.
+
+The lack of information on how to implement the guidelines have led to inconsistent interpretations of them.<ref>{{cite journal |last1=Jacobsen |first1=Annika |last2=de Miranda Azevedo |first2=Ricardo |last3=Juty |first3=Nick |last4=Batista |first4=Dominique |last5=Coles |first5=Simon |last6=Cornet |first6=Ronald |last7=Courtot |first7=Mélanie |last8=Crosas |first8=Mercè |last9=Dumontier |first9=Michel |last10=Evelo |first10=Chris T. |last11=Goble |first11=Carole |last12=Guizzardi |first12=Giancarlo |last13=Hansen |first13=Karsten Kryger |last14=Hasnain |first14=Ali |last15=Hettne |first15=Kristina |last16=Heringa |first16=Jaap |last17=Hooft |first17=Rob W.W. |last18=Imming |first18=Melanie |last19=Jeffery |first19=Keith G. |last20=Kaliyaperumal |first20=Rajaram |last21=Kersloot |first21=Martijn G. |last22=Kirkpatrick |first22=Christine R. |last23=Kuhn |first23=Tobias |last24=Labastida |first24=Ignasi |last25=Magagna |first25=Barbara |last26=McQuilton |first26=Peter |last27=Meyers |first27=Natalie |last28=Montesanti |first28=Annalisa |last29=van Reisen |first29=Mirjam |last30=Rocca-Serra |first30=Philippe |last31=Pergl |first31=Robert |last32=Sansone |first32=Susanna-Assunta |last33=da Silva Santos |first33=Luiz Olavo Bonino |last34=Schneider |first34=Juliane |last35=Strawn |first35=George |last36=Thompson |first36=Mark |last37=Waagmeester |first37=Andra |last38=Weigel |first38=Tobias |last39=Wilkinson |first39=Mark D. |last40=Willighagen |first40=Egon L. |last41=Wittenburg |first41=Peter |last42=Roos |first42=Marco |last43=Mons |first43=Barend |last44=Schultes |first44=Erik |title=FAIR Principles: Interpretations and Implementation Considerations |journal=Data Intelligence |date=January 2020 |volume=2 |issue=1–2 |pages=10–29 |doi=10.1162/dint_r_00024|doi-access=free }}</ref>
+
+In January 2020, representatives of nine groups of universities around the world produced the ''Sorbonne declaration on research data rights'',<ref>[https://sorbonnedatadeclaration.eu/ Sorbonne Declaration on Research Data Rights], Jan 27 2020</ref> which included a commitment to FAIR data, and called on governments to provide support to enable it.<ref>[https://www.timeshighereducation.com/news/open-data-tougher-open-access-and-needs-mindset-change Open data ‘tougher’ than open access and needs ‘mindset change’], [[Times Higher Education]], January 31 2020</ref>
+
+==See also==
+*[[Data management]]
+*[[Remix culture]]
+*[[Open access]]
+*[[Open data]] – datasets and databases carrying an explicit data‑capable [[open license]]
+*[[Open science]]
+
+==References==
+{{reflist}}
+
+==External links==
+{{scholia|topic}}
+*[http://wilkinsonlab.info/node/FAIR FAIR Data and Semantic Publishing], a statement from the lab of the first author of the original paper
+*[https://www.dtls.nl/fair-data/ Guide to FAIR Data] from Dutch Techcentre for Life Sciences
+*[https://www.go-fair.org/ GO FAIR] initiative website
+*[https://www.go-fair.org/fair-principles/ FAIR Principles] with detailed description of each of the guiding principles by the GO FAIR initiative
+*[https://vidensportal.deic.dk/sites/default/files/uploads/A%20FAIRy%20tale%20book%20digital_ny.pdf A FAIRy tale] explaining the FAIR principles, published by the FAIR project
+
+[[Category:Political statements]]
+[[Category:Open content]]
+[[Category:Data management]]
+[[Category:Open data]]
+[[Category:Open science]]
