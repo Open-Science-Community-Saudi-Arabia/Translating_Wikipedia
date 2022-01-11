@@ -1,8 +1,8 @@
-# FIXME Project Name
+# Translating Open Science related articles in Wikipedia using Crowdin
 
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
-FIXME description about the Programme
+This is a repository to translate Open Science related articles in Wikipedia using Crowdin
 
 ## Contributing :two_hearts:
 - If you like it, leave your star in this project :star2:
